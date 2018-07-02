@@ -10,7 +10,7 @@ From this plot, we do see that there is a heavier proportion of the positive twe
 
 Figure 2,  represents the same tweet data in a way that is much more understandable with aggregated columns of the averaged sentiment score per news agency.  It is clear that CBS in this snapshot in time, scores highest for positive sentiments significantly more that the other agencies.  
 
-Without knowing what is in the news that may affect the tweet content, it is difficult to say why the difference in bar values are so varied.  However one might safely conclude that CBS's viewers generally lack the negative opinions more than the others have.  Perhaps CBS isn't as much a controversial news agency that is not targeted by strong negative efforts by tweeters or bots.
+Without knowing what is in the news that may affect the tweet content, it is difficult to say why the difference in bar values are so varied.  However one might safely conclude that CBS's tweets generally lack the negative opinions more than the others have, with BBC coming in second.
 
 CNN, New York Times, and Fox News appear to be fairly controversial news agencies with their aggregated scores laying close to neutral.  We know that from Figure 1, that the scatter of points on the graph show a wide range of sentiments, so that although the aggregated scores of these agencies are close to the neutral score of zero, their makeup is much different.  
 
