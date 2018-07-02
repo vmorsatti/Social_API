@@ -24,6 +24,7 @@ Linking and tracking content of current events would further give indication of 
 
 ```python
 #Setup
+import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -200,22 +201,14 @@ legen.legendHandles[1]._sizes = [50]
 legen.legendHandles[2]._sizes = [50]
 legen.legendHandles[3]._sizes = [50]
 legen.legendHandles[4]._sizes = [50]
+# Create figure png file for Sentiment Analysis of Media Tweets
+plt.savefig("Sentiment_Analysis.png")
 
 plt.show()
 ```
 
 
 ![png](output_17_0.png)
-
-
-
-```python
-# Create figure png file for Sentiment Analysis of Media Tweets
-plt.savefig("Sentiment_Analysis.png")
-```
-
-
-    <matplotlib.figure.Figure at 0x1a119ffc88>
 
 
 # Overall Media Sentiment Based on Twitter
@@ -243,21 +236,15 @@ title = "Overall Media Sentiment Based on Twitter ({})".format(today)
 plt.title(title, fontsize=16)
 plt.bar(y_pos, polarity, color=['cyan', 'green', 'red', 'blue', 'yellow'])
 plt.xticks(y_pos, bars)
+
+# Create figure png file
+plt.savefig("Overall_Sentiment.png")
+
 plt.show()
 ```
 
 
-![png](output_21_0.png)
-
-
-
-```python
-# Create figure png file
-plt.savefig("Overall_Sentiment.png")
-```
-
-
-    <matplotlib.figure.Figure at 0x1a173f9518>
+![png](output_20_0.png)
 
 
 
